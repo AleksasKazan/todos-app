@@ -1,0 +1,154 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Swashbuckle.AspNetCore" />
+    <None Remove="Models\" />
+    <None Remove="Models\ResponseModels\" />
+    <None Remove="MySql.Data" />
+    <None Remove="Dapper" />
+    <None Remove="Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache" />
+    <None Remove="Domain\obj\Domain.csproj.nuget.g.props" />
+    <None Remove="Domain\obj\Domain.csproj.nuget.g.targets" />
+    <None Remove="Domain\obj\project.nuget.cache" />
+    <None Remove="Domain\obj\Debug\net5.0\Domain.assets.cache" />
+    <None Remove="Persistence1\obj\Debug\net5.0\Persistence1.csproj.AssemblyReference.cache" />
+    <None Remove="Persistence1\obj\Persistence1.csproj.nuget.g.props" />
+    <None Remove="Persistence1\obj\Persistence1.csproj.nuget.g.targets" />
+    <None Remove="Persistence1\obj\project.nuget.cache" />
+    <None Remove="Persistence1\obj\Debug\net5.0\Persistence1.assets.cache" />
+    <None Remove="Persistence1\obj\Persistence.csproj.nuget.g.targets" />
+    <None Remove="Persistence1\obj\Persistence.csproj.nuget.g.props" />
+    <None Remove="Persistence1\obj\Debug\net5.0\Persistence.assets.cache" />
+    <None Remove="Persistence1\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache" />
+    <None Remove="Persistence1\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache" />
+    <None Remove="Domain\obj\Debug\net5.0\Domain.csproj.FileListAbsolute.txt" />
+    <None Remove="Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache" />
+    <None Remove="Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Remove="Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache" />
+    <None Remove="Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache" />
+    <None Remove="Contracts1\obj\Debug\net5.0\Contracts1.csproj.AssemblyReference.cache" />
+    <None Remove="Contracts1\obj\Contracts1.csproj.nuget.g.props" />
+    <None Remove="Contracts1\obj\Contracts1.csproj.nuget.g.targets" />
+    <None Remove="Contracts1\obj\project.nuget.cache" />
+    <None Remove="Contracts1\obj\Debug\net5.0\Contracts1.assets.cache" />
+    <None Remove="Contracts1\obj\Contracts.csproj.nuget.g.targets" />
+    <None Remove="Contracts1\obj\Contracts.csproj.nuget.g.props" />
+    <None Remove="Contracts1\obj\Debug\net5.0\Contracts.assets.cache" />
+    <None Remove="Contracts1\obj\Debug\net5.0\Contracts.csproj.AssemblyReference.cache" />
+    <None Remove="Contracts1\bin\Debug\net5.0\Contracts.dll" />
+    <None Remove="Contracts1\bin\Debug\net5.0\ref\Contracts.dll" />
+    <None Remove="Contracts1\bin\Debug\net5.0\Contracts.pdb" />
+    <None Remove="Contracts1\obj\Debug\net5.0\Contracts.csproj.AssemblyReference.cache" />
+    <None Remove="Contracts1\obj\Debug\net5.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Remove="Contracts1\obj\Debug\net5.0\Contracts.AssemblyInfoInputs.cache" />
+    <None Remove="Contracts1\obj\Debug\net5.0\Contracts.csproj.CoreCompileInputs.cache" />
+    <None Remove="Contracts1\obj\Debug\net5.0\Contracts.dll" />
+    <None Remove="Contracts1\obj\Debug\net5.0\Contracts.pdb" />
+    <None Remove="Contracts1\obj\Debug\net5.0\ref\Contracts.dll" />
+    <None Remove="Contracts1\obj\Debug\net5.0\Contracts.csproj.FileListAbsolute.txt" />
+    <None Remove="Persistence1\bin\Debug\net5.0\Contracts.pdb" />
+    <None Remove="Persistence1\bin\Debug\net5.0\Contracts.dll" />
+    <None Remove="Persistence1\bin\Debug\net5.0\Persistence.dll" />
+    <None Remove="Persistence1\bin\Debug\net5.0\ref\Persistence.dll" />
+    <None Remove="Persistence1\bin\Debug\net5.0\Persistence.pdb" />
+    <None Remove="Persistence1\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache" />
+    <None Remove="Persistence1\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Remove="Persistence1\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache" />
+    <None Remove="Persistence1\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache" />
+    <None Remove="Persistence1\obj\Debug\net5.0\Persistence.csproj.FileListAbsolute.txt" />
+    <None Remove="Persistence1\obj\project.nuget.cache" />
+    <None Remove="Persistence1\obj\Debug\net5.0\Persistence.dll" />
+    <None Remove="Persistence1\obj\Debug\net5.0\Persistence.pdb" />
+    <None Remove="Persistence1\obj\Debug\net5.0\ref\Persistence.dll" />
+    <None Remove="Persistence1\obj\Debug\net5.0\Persistence.csproj.CopyComplete" />
+    <None Remove="Domain\obj\project.nuget.cache" />
+    <None Remove="Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache" />
+    <None Remove="Domain\obj\Debug\net5.0\Domain.dll" />
+    <None Remove="Domain\obj\Debug\net5.0\ref\Domain.dll" />
+    <None Remove="Domain\obj\Debug\net5.0\Domain.pdb" />
+    <None Remove="Domain\bin\Debug\net5.0\Contracts.pdb" />
+    <None Remove="Domain\bin\Debug\net5.0\Persistence.pdb" />
+    <None Remove="Domain\bin\Debug\net5.0\Persistence.dll" />
+    <None Remove="Domain\bin\Debug\net5.0\Contracts.dll" />
+    <None Remove="Domain\obj\Debug\net5.0\Domain.csproj.CopyComplete" />
+    <None Remove="Domain\bin\Debug\net5.0\Domain.dll" />
+    <None Remove="Domain\bin\Debug\net5.0\ref\Domain.dll" />
+    <None Remove="Domain\bin\Debug\net5.0\Domain.pdb" />
+    <None Remove="Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache" />
+    <None Remove="Persistence1\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache" />
+    <None Remove="Contracts1\obj\Debug\net5.0\Contracts.csproj.AssemblyReference.cache" />
+    <None Remove="Persistence1\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.1" />
+    <PackageReference Include="MySql.Data" Version="8.0.26" />
+    <PackageReference Include="Dapper" Version="2.0.90" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Models\ResponseModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Domain\Services\ITodoService.cs" />
+    <Compile Remove="Domain\Services\TodoService.cs" />
+    <Compile Remove="Persistence1\Persistence\SqlClient.cs" />
+    <Compile Remove="Persistence1\Persistence\ServiceExtensions.cs" />
+    <Compile Remove="Persistence1\Persistence\TodosRepository.cs" />
+    <Compile Remove="Persistence1\Persistence\ITodosRepository.cs" />
+    <Compile Remove="Persistence1\Persistence\Models\ReadModels\TodoItemReadModel.cs" />
+    <Compile Remove="Persistence1\FluentConnectionStringBuilder.cs" />
+    <Compile Remove="Persistence1\Models\ReadModels\TodoItemReadModel.cs" />
+    <Compile Remove="Persistence1\ISqlClient.cs" />
+    <Compile Remove="Persistence1\ITodosRepository.cs" />
+    <Compile Remove="Persistence1\ServiceExtensions.cs" />
+    <Compile Remove="Persistence1\SqlClient.cs" />
+    <Compile Remove="Persistence1\TodosRepository.cs" />
+    <Compile Remove="Domain\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Remove="Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs" />
+    <Compile Remove="Contracts1\Enums\Difficulty.cs" />
+    <Compile Remove="Contracts1\Enums\Difficulty.cs" />
+    <Compile Remove="Contracts1\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Remove="Contracts1\obj\Debug\net5.0\Contracts.AssemblyInfo.cs" />
+    <Compile Remove="Persistence1\FluentConnectionStringBuilder.cs" />
+    <Compile Remove="Persistence1\ISqlClient.cs" />
+    <Compile Remove="Persistence1\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Remove="Persistence1\obj\Debug\net5.0\Persistence.AssemblyInfo.cs" />
+    <Compile Remove="Persistence1\Models\ReadModels\TodoItemReadModel.cs" />
+    <Compile Remove="Persistence1\ITodosRepository.cs" />
+    <Compile Remove="Persistence1\ServiceExtensions.cs" />
+    <Compile Remove="Persistence1\SqlClient.cs" />
+    <Compile Remove="Persistence1\TodosRepository.cs" />
+    <Compile Remove="Persistence1\Models\TodoItem.cs" />
+    <Compile Remove="Domain\Services\ITodoService.cs" />
+    <Compile Remove="Domain\Services\TodoService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Domain\obj\project.assets.json" />
+    <Content Remove="Domain\obj\Domain.csproj.nuget.dgspec.json" />
+    <Content Remove="Persistence1\obj\project.assets.json" />
+    <Content Remove="Persistence1\obj\Persistence1.csproj.nuget.dgspec.json" />
+    <Content Remove="Persistence1\obj\Persistence.csproj.nuget.dgspec.json" />
+    <Content Remove="Contracts1\obj\Contracts1.csproj.nuget.dgspec.json" />
+    <Content Remove="Contracts1\obj\project.assets.json" />
+    <Content Remove="Contracts1\obj\Contracts.csproj.nuget.dgspec.json" />
+    <Content Remove="Contracts1\bin\Debug\net5.0\Contracts.deps.json" />
+    <Content Remove="Persistence1\bin\Debug\net5.0\Persistence.deps.json" />
+    <Content Remove="Persistence1\obj\project.assets.json" />
+    <Content Remove="Persistence1\obj\Persistence.csproj.nuget.dgspec.json" />
+    <Content Remove="Domain\obj\project.assets.json" />
+    <Content Remove="Domain\obj\Domain.csproj.nuget.dgspec.json" />
+    <Content Remove="Domain\bin\Debug\net5.0\Domain.deps.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Persistence1\Persistence.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="Contracts1\Contracts.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodosApp", "TodosApp.csproj", "{C4891A0B-7297-4C18-A1C2-23C517EF0CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence1\Persistence.csproj", "{68AFE0CB-8909-4C7E-9EB0-0C367AAAF645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts1\Contracts.csproj", "{C12734FC-D8A5-47A3-ADD2-2E8A67F36ED6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4891A0B-7297-4C18-A1C2-23C517EF0CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4891A0B-7297-4C18-A1C2-23C517EF0CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4891A0B-7297-4C18-A1C2-23C517EF0CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4891A0B-7297-4C18-A1C2-23C517EF0CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68AFE0CB-8909-4C7E-9EB0-0C367AAAF645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68AFE0CB-8909-4C7E-9EB0-0C367AAAF645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68AFE0CB-8909-4C7E-9EB0-0C367AAAF645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68AFE0CB-8909-4C7E-9EB0-0C367AAAF645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12734FC-D8A5-47A3-ADD2-2E8A67F36ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12734FC-D8A5-47A3-ADD2-2E8A67F36ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12734FC-D8A5-47A3-ADD2-2E8A67F36ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12734FC-D8A5-47A3-ADD2-2E8A67F36ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7C37BE0-6BE7-42E8-8C37-5045F0931CBE}
+	EndGlobalSection
+EndGlobal
